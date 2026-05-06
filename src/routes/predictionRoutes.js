@@ -1,0 +1,15 @@
+const router = require('express').Router();
+const ctrl = require('../controllers/predictionController');
+router.get('/current-risk', ctrl.currentRisk);
+router.get('/zone/:zoneId', ctrl.zonePrediction);
+router.get('/7-day', ctrl.next7Days);
+router.get('/next-7-days', ctrl.next7Days);
+router.get('/hotspots', ctrl.hotspots);
+router.get('/hotspots/:id', ctrl.hotspotDetail);
+router.get('/india-district-risk', ctrl.indiaDistrictRisk);
+router.get('/india-district-risk/:district', ctrl.districtRisk);
+router.get('/highest-risk', ctrl.highestRiskDistricts);
+router.get('/by-state', ctrl.averageRiskByState);
+router.get('/statistics', ctrl.statistics);
+router.post('/run-model', ctrl.runPrediction);
+module.exports = router;

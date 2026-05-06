@@ -1,0 +1,10 @@
+const router = require('express').Router();
+const common = require('../controllers/commonController');
+const upload = require('../middleware/uploadMiddleware');
+router.get('/public/stats', common.publicStats);
+router.get('/map/zones', common.mapZones);
+router.get('/heatmap/live', common.heatmapLive);
+router.get('/zones', common.listZones);
+router.get('/zones/:id/risk', common.getZoneRisk);
+router.post('/uploads', upload.single('file'), common.uploadFile);
+module.exports = router;

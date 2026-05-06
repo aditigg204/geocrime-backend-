@@ -1,0 +1,14 @@
+const router = require('express').Router();
+const upload = require('../middleware/uploadMiddleware');
+const ctrl = require('../controllers/incidentController');
+router.post('/', upload.single('file'), ctrl.createReport);
+router.get('/', ctrl.list);
+router.get('/mine', ctrl.mine);
+router.get('/nearby', ctrl.nearby);
+router.get('/:id', ctrl.detail);
+router.patch('/:id/status', ctrl.updateStatus);
+router.post('/:id/updates', ctrl.addUpdate);
+router.post('/:id/comment', ctrl.addUpdate);
+router.post('/:id/media', upload.single('file'), ctrl.addMedia);
+router.get('/:id/timeline', ctrl.timeline);
+module.exports = router;

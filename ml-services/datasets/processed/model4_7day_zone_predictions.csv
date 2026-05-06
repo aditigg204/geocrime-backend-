@@ -1,0 +1,540 @@
+zone_id,zone_name,center_latitude,center_longitude,prediction_date,predicted_risk_score,predicted_risk_level,predicted_crime_type,confidence_score,model_name,algorithm,created_at
+1,Chicago Zone 1,42.01416423085714,-87.66881699985716,2023-07-15,1.49,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188726
+10,Chicago Zone 10,41.98459968026373,-87.80119453696274,2023-07-15,1.62,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188741
+11,Chicago Zone 11,41.977875871,-87.76806366299999,2023-07-15,1.69,green,DECEPTIVE PRACTICE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188748
+12,Chicago Zone 12,41.98960965451126,-87.75293447018514,2023-07-15,1.94,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188752
+13,Chicago Zone 13,41.9888851215,-87.71809692325,2023-07-15,1.7,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188757
+14,Chicago Zone 14,41.969223078,-87.72329654025,2023-07-15,1.48,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188760
+15,Chicago Zone 15,41.95253439491667,-87.75816575008334,2023-07-15,1.53,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188768
+16,Chicago Zone 16,41.950004633,-87.707299417,2023-07-15,1.45,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188772
+17,Chicago Zone 17,41.9444712022,-87.81378707500001,2023-07-15,1.41,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188775
+18,Chicago Zone 18,41.92808711525,-87.801577923,2023-07-15,1.41,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188779
+19,Chicago Zone 19,41.92455799242857,-87.76377718399999,2023-07-15,1.53,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188782
+2,Chicago Zone 2,42.00069442236842,-87.69178396794737,2023-07-15,1.53,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188786
+20,Chicago Zone 20,41.926835069999996,-87.7336782468,2023-07-15,1.48,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188790
+21,Chicago Zone 21,41.936655391,-87.7079890508889,2023-07-15,1.49,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188793
+22,Chicago Zone 22,41.92127976321429,-87.69844430971429,2023-07-15,1.53,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188797
+23,Chicago Zone 23,41.900201453952384,-87.71906427266667,2023-07-15,1.53,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188801
+24,Chicago Zone 24,41.90168456151724,-87.68155920641378,2023-07-15,1.53,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188805
+25,Chicago Zone 25,41.891784598600005,-87.75933212422221,2023-07-15,1.52,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188808
+26,Chicago Zone 26,41.87869059846154,-87.72835350815384,2023-07-15,1.52,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188812
+27,Chicago Zone 27,41.876999674000004,-87.70570040985714,2023-07-15,1.52,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188815
+28,Chicago Zone 28,41.873528652357145,-87.66394819985715,2023-07-15,1.52,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188819
+29,Chicago Zone 29,41.86062306353846,-87.7182468726923,2023-07-15,1.5,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188823
+3,Chicago Zone 3,41.96533002127273,-87.65729765109091,2023-07-15,1.5,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188827
+30,Chicago Zone 30,41.84620153438889,-87.711551882,2023-07-15,1.51,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188831
+31,Chicago Zone 31,41.85407425585714,-87.66281153157142,2023-07-15,1.37,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188835
+32,Chicago Zone 32,41.88078472521739,-87.62854563226087,2023-07-15,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188838
+33,Chicago Zone 33,41.85651046588889,-87.62678100033332,2023-07-15,1.38,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188842
+34,Chicago Zone 34,41.84556591716667,-87.63325436999999,2023-07-15,1.38,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188846
+35,Chicago Zone 35,41.8357748792,-87.6192775456,2023-07-15,1.4,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188850
+36,Chicago Zone 36,41.8304873015,-87.609015726,2023-07-15,1.6,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188853
+37,Chicago Zone 37,41.804386020500004,-87.63080674400001,2023-07-15,1.74,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188857
+38,Chicago Zone 38,41.81429962716667,-87.61728737025,2023-07-15,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188860
+39,Chicago Zone 39,41.80857255257143,-87.59428999685714,2023-07-15,1.39,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188864
+4,Chicago Zone 4,41.9698363566,-87.6846227822,2023-07-15,1.36,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188868
+40,Chicago Zone 40,41.78743885271428,-87.61826737585714,2023-07-15,1.38,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188871
+41,Chicago Zone 41,41.7994130895,-87.59248158630001,2023-07-15,1.4,green,CRIMINAL TRESPASS,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188874
+42,Chicago Zone 42,41.78078957773334,-87.6037448578,2023-07-15,1.4,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188878
+43,Chicago Zone 43,41.76266208468421,-87.57380802205263,2023-07-15,1.4,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188881
+44,Chicago Zone 44,41.74595236085714,-87.61401259621428,2023-07-15,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188885
+45,Chicago Zone 45,41.745291954500004,-87.590476089,2023-07-15,1.67,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188888
+46,Chicago Zone 46,41.7412976441875,-87.556605630875,2023-07-15,1.4,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188892
+47,Chicago Zone 47,41.726918544,-87.594900427,2023-07-15,1.99,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188896
+48,Chicago Zone 48,41.733504393833336,-87.57572168166666,2023-07-15,1.36,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188900
+49,Chicago Zone 49,41.70708789407692,-87.6247272423077,2023-07-15,1.41,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188903
+5,Chicago Zone 5,41.9442497888,-87.6867205034,2023-07-15,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188907
+50,Chicago Zone 50,41.69882413766667,-87.607266502,2023-07-15,1.79,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188911
+51,Chicago Zone 51,41.70748983033334,-87.57113515766667,2023-07-15,1.35,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188914
+52,Chicago Zone 52,41.70986555166667,-87.536724779,2023-07-15,1.35,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188918
+53,Chicago Zone 53,41.680489122,-87.63702841525,2023-07-15,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188922
+54,Chicago Zone 54,41.655306771,-87.60477457766667,2023-07-15,1.39,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188925
+55,Chicago Zone 55,41.683894862,-87.534050495,2023-07-15,1.64,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188929
+56,Chicago Zone 56,41.799490794125,-87.75428636775,2023-07-15,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188932
+57,Chicago Zone 57,41.8060125785,-87.721834976,2023-07-15,1.91,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188936
+58,Chicago Zone 58,41.81410021433334,-87.69963179133333,2023-07-15,1.37,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188940
+59,Chicago Zone 59,41.830038123,-87.684452738,2023-07-15,1.79,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188943
+6,Chicago Zone 6,41.9403961684,-87.65434215605,2023-07-15,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188947
+60,Chicago Zone 60,41.8286232475,-87.6432240545,2023-07-15,1.31,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188950
+61,Chicago Zone 61,41.804777053692305,-87.66706502692308,2023-07-15,1.42,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188954
+62,Chicago Zone 62,41.78910686766667,-87.73077133833333,2023-07-15,1.62,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188957
+63,Chicago Zone 63,41.799070475600004,-87.6998327972,2023-07-15,1.37,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188960
+64,Chicago Zone 64,41.777221755,-87.758133836,2023-07-15,1.61,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188964
+65,Chicago Zone 65,41.768241139857146,-87.72947866714286,2023-07-15,1.36,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188967
+66,Chicago Zone 66,41.779119464857146,-87.69512597185714,2023-07-15,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188971
+67,Chicago Zone 67,41.77139294055556,-87.66430488466666,2023-07-15,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188974
+68,Chicago Zone 68,41.77857384958333,-87.64312121849999,2023-07-15,1.42,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188978
+69,Chicago Zone 69,41.76321993117647,-87.6196880727647,2023-07-15,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188982
+7,Chicago Zone 7,41.92453016258333,-87.64843722675,2023-07-15,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188985
+70,Chicago Zone 70,41.744588421,-87.716398234,2023-07-15,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188989
+71,Chicago Zone 71,41.746953728159994,-87.65515065052001,2023-07-15,1.42,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188992
+72,Chicago Zone 72,41.70979321125,-87.67326246975,2023-07-15,1.71,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188996
+73,Chicago Zone 73,41.72113639522222,-87.64080467888888,2023-07-15,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.188999
+74,Chicago Zone 74,41.69323837,-87.7112443355,2023-07-15,2.35,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.189003
+75,Chicago Zone 75,41.6878946135,-87.65890494925,2023-07-15,1.38,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.189006
+76,Chicago Zone 76,41.976290414,-87.905227221,2023-07-15,1.26,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.189011
+77,Chicago Zone 77,41.98812868272727,-87.6636789299091,2023-07-15,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.189014
+8,Chicago Zone 8,41.8958617143125,-87.62997474853125,2023-07-15,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.189018
+9,Chicago Zone 9,42.018925407,-87.80832454,2023-07-15,2.47,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.189022
+1,Chicago Zone 1,42.01416423085714,-87.66881699985716,2023-07-16,1.5,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281291
+10,Chicago Zone 10,41.98459968026373,-87.80119453696274,2023-07-16,1.62,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281319
+11,Chicago Zone 11,41.977875871,-87.76806366299999,2023-07-16,1.71,green,DECEPTIVE PRACTICE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281333
+12,Chicago Zone 12,41.98960965451126,-87.75293447018514,2023-07-16,1.96,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281344
+13,Chicago Zone 13,41.9888851215,-87.71809692325,2023-07-16,1.71,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281353
+14,Chicago Zone 14,41.969223078,-87.72329654025,2023-07-16,1.49,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281364
+15,Chicago Zone 15,41.95253439491667,-87.75816575008334,2023-07-16,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281375
+16,Chicago Zone 16,41.950004633,-87.707299417,2023-07-16,1.47,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281387
+17,Chicago Zone 17,41.9444712022,-87.81378707500001,2023-07-16,1.43,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281397
+18,Chicago Zone 18,41.92808711525,-87.801577923,2023-07-16,1.43,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281406
+19,Chicago Zone 19,41.92455799242857,-87.76377718399999,2023-07-16,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281415
+2,Chicago Zone 2,42.00069442236842,-87.69178396794737,2023-07-16,1.54,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281425
+20,Chicago Zone 20,41.926835069999996,-87.7336782468,2023-07-16,1.49,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281436
+21,Chicago Zone 21,41.936655391,-87.7079890508889,2023-07-16,1.5,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281447
+22,Chicago Zone 22,41.92127976321429,-87.69844430971429,2023-07-16,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281458
+23,Chicago Zone 23,41.900201453952384,-87.71906427266667,2023-07-16,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281468
+24,Chicago Zone 24,41.90168456151724,-87.68155920641378,2023-07-16,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281480
+25,Chicago Zone 25,41.891784598600005,-87.75933212422221,2023-07-16,1.54,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281490
+26,Chicago Zone 26,41.87869059846154,-87.72835350815384,2023-07-16,1.54,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281499
+27,Chicago Zone 27,41.876999674000004,-87.70570040985714,2023-07-16,1.54,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281508
+28,Chicago Zone 28,41.873528652357145,-87.66394819985715,2023-07-16,1.54,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281517
+29,Chicago Zone 29,41.86062306353846,-87.7182468726923,2023-07-16,1.5,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281526
+3,Chicago Zone 3,41.96533002127273,-87.65729765109091,2023-07-16,1.5,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281536
+30,Chicago Zone 30,41.84620153438889,-87.711551882,2023-07-16,1.51,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281545
+31,Chicago Zone 31,41.85407425585714,-87.66281153157142,2023-07-16,1.37,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281554
+32,Chicago Zone 32,41.88078472521739,-87.62854563226087,2023-07-16,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281566
+33,Chicago Zone 33,41.85651046588889,-87.62678100033332,2023-07-16,1.38,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281573
+34,Chicago Zone 34,41.84556591716667,-87.63325436999999,2023-07-16,1.38,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281579
+35,Chicago Zone 35,41.8357748792,-87.6192775456,2023-07-16,1.4,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281585
+36,Chicago Zone 36,41.8304873015,-87.609015726,2023-07-16,1.6,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281591
+37,Chicago Zone 37,41.804386020500004,-87.63080674400001,2023-07-16,1.74,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281598
+38,Chicago Zone 38,41.81429962716667,-87.61728737025,2023-07-16,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281603
+39,Chicago Zone 39,41.80857255257143,-87.59428999685714,2023-07-16,1.39,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281610
+4,Chicago Zone 4,41.9698363566,-87.6846227822,2023-07-16,1.36,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281616
+40,Chicago Zone 40,41.78743885271428,-87.61826737585714,2023-07-16,1.38,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281622
+41,Chicago Zone 41,41.7994130895,-87.59248158630001,2023-07-16,1.4,green,CRIMINAL TRESPASS,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281628
+42,Chicago Zone 42,41.78078957773334,-87.6037448578,2023-07-16,1.4,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281634
+43,Chicago Zone 43,41.76266208468421,-87.57380802205263,2023-07-16,1.4,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281640
+44,Chicago Zone 44,41.74595236085714,-87.61401259621428,2023-07-16,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281647
+45,Chicago Zone 45,41.745291954500004,-87.590476089,2023-07-16,1.67,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281654
+46,Chicago Zone 46,41.7412976441875,-87.556605630875,2023-07-16,1.4,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281660
+47,Chicago Zone 47,41.726918544,-87.594900427,2023-07-16,2.0,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281667
+48,Chicago Zone 48,41.733504393833336,-87.57572168166666,2023-07-16,1.36,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281673
+49,Chicago Zone 49,41.70708789407692,-87.6247272423077,2023-07-16,1.41,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281680
+5,Chicago Zone 5,41.9442497888,-87.6867205034,2023-07-16,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281686
+50,Chicago Zone 50,41.69882413766667,-87.607266502,2023-07-16,1.8,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281692
+51,Chicago Zone 51,41.70748983033334,-87.57113515766667,2023-07-16,1.35,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281698
+52,Chicago Zone 52,41.70986555166667,-87.536724779,2023-07-16,1.35,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281704
+53,Chicago Zone 53,41.680489122,-87.63702841525,2023-07-16,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281710
+54,Chicago Zone 54,41.655306771,-87.60477457766667,2023-07-16,1.39,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281716
+55,Chicago Zone 55,41.683894862,-87.534050495,2023-07-16,1.64,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281722
+56,Chicago Zone 56,41.799490794125,-87.75428636775,2023-07-16,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281728
+57,Chicago Zone 57,41.8060125785,-87.721834976,2023-07-16,1.91,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281735
+58,Chicago Zone 58,41.81410021433334,-87.69963179133333,2023-07-16,1.37,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281742
+59,Chicago Zone 59,41.830038123,-87.684452738,2023-07-16,1.79,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281748
+6,Chicago Zone 6,41.9403961684,-87.65434215605,2023-07-16,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281754
+60,Chicago Zone 60,41.8286232475,-87.6432240545,2023-07-16,1.31,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281761
+61,Chicago Zone 61,41.804777053692305,-87.66706502692308,2023-07-16,1.42,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281766
+62,Chicago Zone 62,41.78910686766667,-87.73077133833333,2023-07-16,1.62,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281772
+63,Chicago Zone 63,41.799070475600004,-87.6998327972,2023-07-16,1.37,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281778
+64,Chicago Zone 64,41.777221755,-87.758133836,2023-07-16,1.61,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281784
+65,Chicago Zone 65,41.768241139857146,-87.72947866714286,2023-07-16,1.36,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281790
+66,Chicago Zone 66,41.779119464857146,-87.69512597185714,2023-07-16,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281797
+67,Chicago Zone 67,41.77139294055556,-87.66430488466666,2023-07-16,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281803
+68,Chicago Zone 68,41.77857384958333,-87.64312121849999,2023-07-16,1.42,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281809
+69,Chicago Zone 69,41.76321993117647,-87.6196880727647,2023-07-16,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281815
+7,Chicago Zone 7,41.92453016258333,-87.64843722675,2023-07-16,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281821
+70,Chicago Zone 70,41.744588421,-87.716398234,2023-07-16,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281827
+71,Chicago Zone 71,41.746953728159994,-87.65515065052001,2023-07-16,1.42,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281832
+72,Chicago Zone 72,41.70979321125,-87.67326246975,2023-07-16,1.71,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281839
+73,Chicago Zone 73,41.72113639522222,-87.64080467888888,2023-07-16,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281844
+74,Chicago Zone 74,41.69323837,-87.7112443355,2023-07-16,2.37,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281851
+75,Chicago Zone 75,41.6878946135,-87.65890494925,2023-07-16,1.38,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281858
+76,Chicago Zone 76,41.976290414,-87.905227221,2023-07-16,1.26,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281864
+77,Chicago Zone 77,41.98812868272727,-87.6636789299091,2023-07-16,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281871
+8,Chicago Zone 8,41.8958617143125,-87.62997474853125,2023-07-16,1.42,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281877
+9,Chicago Zone 9,42.018925407,-87.80832454,2023-07-16,2.49,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.281883
+1,Chicago Zone 1,42.01416423085714,-87.66881699985716,2023-07-17,1.48,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380129
+10,Chicago Zone 10,41.98459968026373,-87.80119453696274,2023-07-17,1.61,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380138
+11,Chicago Zone 11,41.977875871,-87.76806366299999,2023-07-17,1.7,green,DECEPTIVE PRACTICE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380143
+12,Chicago Zone 12,41.98960965451126,-87.75293447018514,2023-07-17,2.22,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380146
+13,Chicago Zone 13,41.9888851215,-87.71809692325,2023-07-17,1.7,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380149
+14,Chicago Zone 14,41.969223078,-87.72329654025,2023-07-17,1.46,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380152
+15,Chicago Zone 15,41.95253439491667,-87.75816575008334,2023-07-17,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380156
+16,Chicago Zone 16,41.950004633,-87.707299417,2023-07-17,1.42,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380159
+17,Chicago Zone 17,41.9444712022,-87.81378707500001,2023-07-17,1.4,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380162
+18,Chicago Zone 18,41.92808711525,-87.801577923,2023-07-17,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380165
+19,Chicago Zone 19,41.92455799242857,-87.76377718399999,2023-07-17,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380168
+2,Chicago Zone 2,42.00069442236842,-87.69178396794737,2023-07-17,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380171
+20,Chicago Zone 20,41.926835069999996,-87.7336782468,2023-07-17,1.45,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380176
+21,Chicago Zone 21,41.936655391,-87.7079890508889,2023-07-17,1.48,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380179
+22,Chicago Zone 22,41.92127976321429,-87.69844430971429,2023-07-17,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380181
+23,Chicago Zone 23,41.900201453952384,-87.71906427266667,2023-07-17,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380184
+24,Chicago Zone 24,41.90168456151724,-87.68155920641378,2023-07-17,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380187
+25,Chicago Zone 25,41.891784598600005,-87.75933212422221,2023-07-17,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380190
+26,Chicago Zone 26,41.87869059846154,-87.72835350815384,2023-07-17,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380193
+27,Chicago Zone 27,41.876999674000004,-87.70570040985714,2023-07-17,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380197
+28,Chicago Zone 28,41.873528652357145,-87.66394819985715,2023-07-17,1.51,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380200
+29,Chicago Zone 29,41.86062306353846,-87.7182468726923,2023-07-17,1.52,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380203
+3,Chicago Zone 3,41.96533002127273,-87.65729765109091,2023-07-17,1.52,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380206
+30,Chicago Zone 30,41.84620153438889,-87.711551882,2023-07-17,1.52,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380209
+31,Chicago Zone 31,41.85407425585714,-87.66281153157142,2023-07-17,1.34,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380212
+32,Chicago Zone 32,41.88078472521739,-87.62854563226087,2023-07-17,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380215
+33,Chicago Zone 33,41.85651046588889,-87.62678100033332,2023-07-17,1.36,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380218
+34,Chicago Zone 34,41.84556591716667,-87.63325436999999,2023-07-17,1.35,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380221
+35,Chicago Zone 35,41.8357748792,-87.6192775456,2023-07-17,1.37,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380224
+36,Chicago Zone 36,41.8304873015,-87.609015726,2023-07-17,1.59,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380227
+37,Chicago Zone 37,41.804386020500004,-87.63080674400001,2023-07-17,1.72,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380230
+38,Chicago Zone 38,41.81429962716667,-87.61728737025,2023-07-17,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380233
+39,Chicago Zone 39,41.80857255257143,-87.59428999685714,2023-07-17,1.36,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380235
+4,Chicago Zone 4,41.9698363566,-87.6846227822,2023-07-17,1.33,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380238
+40,Chicago Zone 40,41.78743885271428,-87.61826737585714,2023-07-17,1.35,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380241
+41,Chicago Zone 41,41.7994130895,-87.59248158630001,2023-07-17,1.37,green,CRIMINAL TRESPASS,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380244
+42,Chicago Zone 42,41.78078957773334,-87.6037448578,2023-07-17,1.37,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380247
+43,Chicago Zone 43,41.76266208468421,-87.57380802205263,2023-07-17,1.37,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380250
+44,Chicago Zone 44,41.74595236085714,-87.61401259621428,2023-07-17,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380253
+45,Chicago Zone 45,41.745291954500004,-87.590476089,2023-07-17,1.67,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380256
+46,Chicago Zone 46,41.7412976441875,-87.556605630875,2023-07-17,1.37,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380259
+47,Chicago Zone 47,41.726918544,-87.594900427,2023-07-17,2.64,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380262
+48,Chicago Zone 48,41.733504393833336,-87.57572168166666,2023-07-17,1.33,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380265
+49,Chicago Zone 49,41.70708789407692,-87.6247272423077,2023-07-17,1.38,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380268
+5,Chicago Zone 5,41.9442497888,-87.6867205034,2023-07-17,1.34,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380271
+50,Chicago Zone 50,41.69882413766667,-87.607266502,2023-07-17,1.8,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380274
+51,Chicago Zone 51,41.70748983033334,-87.57113515766667,2023-07-17,1.32,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380276
+52,Chicago Zone 52,41.70986555166667,-87.536724779,2023-07-17,1.32,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380280
+53,Chicago Zone 53,41.680489122,-87.63702841525,2023-07-17,1.35,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380283
+54,Chicago Zone 54,41.655306771,-87.60477457766667,2023-07-17,1.36,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380286
+55,Chicago Zone 55,41.683894862,-87.534050495,2023-07-17,1.65,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380289
+56,Chicago Zone 56,41.799490794125,-87.75428636775,2023-07-17,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380292
+57,Chicago Zone 57,41.8060125785,-87.721834976,2023-07-17,1.89,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380295
+58,Chicago Zone 58,41.81410021433334,-87.69963179133333,2023-07-17,1.34,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380298
+59,Chicago Zone 59,41.830038123,-87.684452738,2023-07-17,1.81,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380301
+6,Chicago Zone 6,41.9403961684,-87.65434215605,2023-07-17,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380304
+60,Chicago Zone 60,41.8286232475,-87.6432240545,2023-07-17,1.27,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380307
+61,Chicago Zone 61,41.804777053692305,-87.66706502692308,2023-07-17,1.39,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380310
+62,Chicago Zone 62,41.78910686766667,-87.73077133833333,2023-07-17,1.61,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380313
+63,Chicago Zone 63,41.799070475600004,-87.6998327972,2023-07-17,1.33,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380315
+64,Chicago Zone 64,41.777221755,-87.758133836,2023-07-17,1.61,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380319
+65,Chicago Zone 65,41.768241139857146,-87.72947866714286,2023-07-17,1.33,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380321
+66,Chicago Zone 66,41.779119464857146,-87.69512597185714,2023-07-17,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380324
+67,Chicago Zone 67,41.77139294055556,-87.66430488466666,2023-07-17,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380327
+68,Chicago Zone 68,41.77857384958333,-87.64312121849999,2023-07-17,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380330
+69,Chicago Zone 69,41.76321993117647,-87.6196880727647,2023-07-17,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380333
+7,Chicago Zone 7,41.92453016258333,-87.64843722675,2023-07-17,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380336
+70,Chicago Zone 70,41.744588421,-87.716398234,2023-07-17,1.34,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380339
+71,Chicago Zone 71,41.746953728159994,-87.65515065052001,2023-07-17,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380341
+72,Chicago Zone 72,41.70979321125,-87.67326246975,2023-07-17,1.7,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380344
+73,Chicago Zone 73,41.72113639522222,-87.64080467888888,2023-07-17,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380347
+74,Chicago Zone 74,41.69323837,-87.7112443355,2023-07-17,2.81,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380350
+75,Chicago Zone 75,41.6878946135,-87.65890494925,2023-07-17,1.35,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380353
+76,Chicago Zone 76,41.976290414,-87.905227221,2023-07-17,1.23,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380356
+77,Chicago Zone 77,41.98812868272727,-87.6636789299091,2023-07-17,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380359
+8,Chicago Zone 8,41.8958617143125,-87.62997474853125,2023-07-17,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380362
+9,Chicago Zone 9,42.018925407,-87.80832454,2023-07-17,2.5,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.380365
+1,Chicago Zone 1,42.01416423085714,-87.66881699985716,2023-07-18,1.48,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465691
+10,Chicago Zone 10,41.98459968026373,-87.80119453696274,2023-07-18,1.62,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465701
+11,Chicago Zone 11,41.977875871,-87.76806366299999,2023-07-18,1.7,green,DECEPTIVE PRACTICE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465707
+12,Chicago Zone 12,41.98960965451126,-87.75293447018514,2023-07-18,2.22,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465710
+13,Chicago Zone 13,41.9888851215,-87.71809692325,2023-07-18,1.71,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465714
+14,Chicago Zone 14,41.969223078,-87.72329654025,2023-07-18,1.45,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465717
+15,Chicago Zone 15,41.95253439491667,-87.75816575008334,2023-07-18,1.5,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465719
+16,Chicago Zone 16,41.950004633,-87.707299417,2023-07-18,1.42,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465722
+17,Chicago Zone 17,41.9444712022,-87.81378707500001,2023-07-18,1.39,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465725
+18,Chicago Zone 18,41.92808711525,-87.801577923,2023-07-18,1.38,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465728
+19,Chicago Zone 19,41.92455799242857,-87.76377718399999,2023-07-18,1.5,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465731
+2,Chicago Zone 2,42.00069442236842,-87.69178396794737,2023-07-18,1.5,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465734
+20,Chicago Zone 20,41.926835069999996,-87.7336782468,2023-07-18,1.45,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465737
+21,Chicago Zone 21,41.936655391,-87.7079890508889,2023-07-18,1.48,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465740
+22,Chicago Zone 22,41.92127976321429,-87.69844430971429,2023-07-18,1.5,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465743
+23,Chicago Zone 23,41.900201453952384,-87.71906427266667,2023-07-18,1.5,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465746
+24,Chicago Zone 24,41.90168456151724,-87.68155920641378,2023-07-18,1.5,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465749
+25,Chicago Zone 25,41.891784598600005,-87.75933212422221,2023-07-18,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465752
+26,Chicago Zone 26,41.87869059846154,-87.72835350815384,2023-07-18,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465755
+27,Chicago Zone 27,41.876999674000004,-87.70570040985714,2023-07-18,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465758
+28,Chicago Zone 28,41.873528652357145,-87.66394819985715,2023-07-18,1.51,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465761
+29,Chicago Zone 29,41.86062306353846,-87.7182468726923,2023-07-18,1.52,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465764
+3,Chicago Zone 3,41.96533002127273,-87.65729765109091,2023-07-18,1.52,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465767
+30,Chicago Zone 30,41.84620153438889,-87.711551882,2023-07-18,1.52,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465769
+31,Chicago Zone 31,41.85407425585714,-87.66281153157142,2023-07-18,1.34,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465772
+32,Chicago Zone 32,41.88078472521739,-87.62854563226087,2023-07-18,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465775
+33,Chicago Zone 33,41.85651046588889,-87.62678100033332,2023-07-18,1.36,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465778
+34,Chicago Zone 34,41.84556591716667,-87.63325436999999,2023-07-18,1.35,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465782
+35,Chicago Zone 35,41.8357748792,-87.6192775456,2023-07-18,1.37,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465784
+36,Chicago Zone 36,41.8304873015,-87.609015726,2023-07-18,1.6,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465788
+37,Chicago Zone 37,41.804386020500004,-87.63080674400001,2023-07-18,1.72,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465790
+38,Chicago Zone 38,41.81429962716667,-87.61728737025,2023-07-18,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465793
+39,Chicago Zone 39,41.80857255257143,-87.59428999685714,2023-07-18,1.36,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465796
+4,Chicago Zone 4,41.9698363566,-87.6846227822,2023-07-18,1.33,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465799
+40,Chicago Zone 40,41.78743885271428,-87.61826737585714,2023-07-18,1.35,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465802
+41,Chicago Zone 41,41.7994130895,-87.59248158630001,2023-07-18,1.37,green,CRIMINAL TRESPASS,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465804
+42,Chicago Zone 42,41.78078957773334,-87.6037448578,2023-07-18,1.37,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465807
+43,Chicago Zone 43,41.76266208468421,-87.57380802205263,2023-07-18,1.37,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465810
+44,Chicago Zone 44,41.74595236085714,-87.61401259621428,2023-07-18,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465814
+45,Chicago Zone 45,41.745291954500004,-87.590476089,2023-07-18,1.67,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465817
+46,Chicago Zone 46,41.7412976441875,-87.556605630875,2023-07-18,1.37,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465820
+47,Chicago Zone 47,41.726918544,-87.594900427,2023-07-18,2.66,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465823
+48,Chicago Zone 48,41.733504393833336,-87.57572168166666,2023-07-18,1.33,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465826
+49,Chicago Zone 49,41.70708789407692,-87.6247272423077,2023-07-18,1.38,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465829
+5,Chicago Zone 5,41.9442497888,-87.6867205034,2023-07-18,1.34,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465832
+50,Chicago Zone 50,41.69882413766667,-87.607266502,2023-07-18,1.79,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465835
+51,Chicago Zone 51,41.70748983033334,-87.57113515766667,2023-07-18,1.32,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465838
+52,Chicago Zone 52,41.70986555166667,-87.536724779,2023-07-18,1.32,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465841
+53,Chicago Zone 53,41.680489122,-87.63702841525,2023-07-18,1.35,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465843
+54,Chicago Zone 54,41.655306771,-87.60477457766667,2023-07-18,1.36,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465846
+55,Chicago Zone 55,41.683894862,-87.534050495,2023-07-18,1.64,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465849
+56,Chicago Zone 56,41.799490794125,-87.75428636775,2023-07-18,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465852
+57,Chicago Zone 57,41.8060125785,-87.721834976,2023-07-18,1.9,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465855
+58,Chicago Zone 58,41.81410021433334,-87.69963179133333,2023-07-18,1.34,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465858
+59,Chicago Zone 59,41.830038123,-87.684452738,2023-07-18,1.81,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465861
+6,Chicago Zone 6,41.9403961684,-87.65434215605,2023-07-18,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465864
+60,Chicago Zone 60,41.8286232475,-87.6432240545,2023-07-18,1.27,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465866
+61,Chicago Zone 61,41.804777053692305,-87.66706502692308,2023-07-18,1.39,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465869
+62,Chicago Zone 62,41.78910686766667,-87.73077133833333,2023-07-18,1.62,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465872
+63,Chicago Zone 63,41.799070475600004,-87.6998327972,2023-07-18,1.33,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465875
+64,Chicago Zone 64,41.777221755,-87.758133836,2023-07-18,1.61,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465878
+65,Chicago Zone 65,41.768241139857146,-87.72947866714286,2023-07-18,1.33,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465880
+66,Chicago Zone 66,41.779119464857146,-87.69512597185714,2023-07-18,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465883
+67,Chicago Zone 67,41.77139294055556,-87.66430488466666,2023-07-18,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465886
+68,Chicago Zone 68,41.77857384958333,-87.64312121849999,2023-07-18,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465889
+69,Chicago Zone 69,41.76321993117647,-87.6196880727647,2023-07-18,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465891
+7,Chicago Zone 7,41.92453016258333,-87.64843722675,2023-07-18,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465894
+70,Chicago Zone 70,41.744588421,-87.716398234,2023-07-18,1.34,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465897
+71,Chicago Zone 71,41.746953728159994,-87.65515065052001,2023-07-18,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465900
+72,Chicago Zone 72,41.70979321125,-87.67326246975,2023-07-18,1.7,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465903
+73,Chicago Zone 73,41.72113639522222,-87.64080467888888,2023-07-18,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465906
+74,Chicago Zone 74,41.69323837,-87.7112443355,2023-07-18,2.78,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465909
+75,Chicago Zone 75,41.6878946135,-87.65890494925,2023-07-18,1.35,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465911
+76,Chicago Zone 76,41.976290414,-87.905227221,2023-07-18,1.23,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465914
+77,Chicago Zone 77,41.98812868272727,-87.6636789299091,2023-07-18,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465917
+8,Chicago Zone 8,41.8958617143125,-87.62997474853125,2023-07-18,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465920
+9,Chicago Zone 9,42.018925407,-87.80832454,2023-07-18,2.5,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.465923
+1,Chicago Zone 1,42.01416423085714,-87.66881699985716,2023-07-19,1.48,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.548983
+10,Chicago Zone 10,41.98459968026373,-87.80119453696274,2023-07-19,1.63,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.548995
+11,Chicago Zone 11,41.977875871,-87.76806366299999,2023-07-19,1.71,green,DECEPTIVE PRACTICE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.548999
+12,Chicago Zone 12,41.98960965451126,-87.75293447018514,2023-07-19,2.22,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549003
+13,Chicago Zone 13,41.9888851215,-87.71809692325,2023-07-19,1.72,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549006
+14,Chicago Zone 14,41.969223078,-87.72329654025,2023-07-19,1.46,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549010
+15,Chicago Zone 15,41.95253439491667,-87.75816575008334,2023-07-19,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549013
+16,Chicago Zone 16,41.950004633,-87.707299417,2023-07-19,1.43,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549016
+17,Chicago Zone 17,41.9444712022,-87.81378707500001,2023-07-19,1.4,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549019
+18,Chicago Zone 18,41.92808711525,-87.801577923,2023-07-19,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549023
+19,Chicago Zone 19,41.92455799242857,-87.76377718399999,2023-07-19,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549026
+2,Chicago Zone 2,42.00069442236842,-87.69178396794737,2023-07-19,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549029
+20,Chicago Zone 20,41.926835069999996,-87.7336782468,2023-07-19,1.46,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549033
+21,Chicago Zone 21,41.936655391,-87.7079890508889,2023-07-19,1.48,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549036
+22,Chicago Zone 22,41.92127976321429,-87.69844430971429,2023-07-19,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549039
+23,Chicago Zone 23,41.900201453952384,-87.71906427266667,2023-07-19,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549043
+24,Chicago Zone 24,41.90168456151724,-87.68155920641378,2023-07-19,1.51,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549046
+25,Chicago Zone 25,41.891784598600005,-87.75933212422221,2023-07-19,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549049
+26,Chicago Zone 26,41.87869059846154,-87.72835350815384,2023-07-19,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549052
+27,Chicago Zone 27,41.876999674000004,-87.70570040985714,2023-07-19,1.51,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549055
+28,Chicago Zone 28,41.873528652357145,-87.66394819985715,2023-07-19,1.51,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549059
+29,Chicago Zone 29,41.86062306353846,-87.7182468726923,2023-07-19,1.52,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549062
+3,Chicago Zone 3,41.96533002127273,-87.65729765109091,2023-07-19,1.52,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549065
+30,Chicago Zone 30,41.84620153438889,-87.711551882,2023-07-19,1.53,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549068
+31,Chicago Zone 31,41.85407425585714,-87.66281153157142,2023-07-19,1.34,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549071
+32,Chicago Zone 32,41.88078472521739,-87.62854563226087,2023-07-19,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549074
+33,Chicago Zone 33,41.85651046588889,-87.62678100033332,2023-07-19,1.36,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549078
+34,Chicago Zone 34,41.84556591716667,-87.63325436999999,2023-07-19,1.35,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549081
+35,Chicago Zone 35,41.8357748792,-87.6192775456,2023-07-19,1.38,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549084
+36,Chicago Zone 36,41.8304873015,-87.609015726,2023-07-19,1.6,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549087
+37,Chicago Zone 37,41.804386020500004,-87.63080674400001,2023-07-19,1.71,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549090
+38,Chicago Zone 38,41.81429962716667,-87.61728737025,2023-07-19,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549093
+39,Chicago Zone 39,41.80857255257143,-87.59428999685714,2023-07-19,1.36,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549097
+4,Chicago Zone 4,41.9698363566,-87.6846227822,2023-07-19,1.33,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549100
+40,Chicago Zone 40,41.78743885271428,-87.61826737585714,2023-07-19,1.35,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549103
+41,Chicago Zone 41,41.7994130895,-87.59248158630001,2023-07-19,1.37,green,CRIMINAL TRESPASS,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549106
+42,Chicago Zone 42,41.78078957773334,-87.6037448578,2023-07-19,1.38,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549109
+43,Chicago Zone 43,41.76266208468421,-87.57380802205263,2023-07-19,1.38,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549112
+44,Chicago Zone 44,41.74595236085714,-87.61401259621428,2023-07-19,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549116
+45,Chicago Zone 45,41.745291954500004,-87.590476089,2023-07-19,1.67,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549119
+46,Chicago Zone 46,41.7412976441875,-87.556605630875,2023-07-19,1.38,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549123
+47,Chicago Zone 47,41.726918544,-87.594900427,2023-07-19,2.67,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549126
+48,Chicago Zone 48,41.733504393833336,-87.57572168166666,2023-07-19,1.34,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549129
+49,Chicago Zone 49,41.70708789407692,-87.6247272423077,2023-07-19,1.39,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549132
+5,Chicago Zone 5,41.9442497888,-87.6867205034,2023-07-19,1.34,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549135
+50,Chicago Zone 50,41.69882413766667,-87.607266502,2023-07-19,1.79,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549140
+51,Chicago Zone 51,41.70748983033334,-87.57113515766667,2023-07-19,1.32,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549144
+52,Chicago Zone 52,41.70986555166667,-87.536724779,2023-07-19,1.32,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549147
+53,Chicago Zone 53,41.680489122,-87.63702841525,2023-07-19,1.35,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549150
+54,Chicago Zone 54,41.655306771,-87.60477457766667,2023-07-19,1.37,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549153
+55,Chicago Zone 55,41.683894862,-87.534050495,2023-07-19,1.65,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549156
+56,Chicago Zone 56,41.799490794125,-87.75428636775,2023-07-19,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549160
+57,Chicago Zone 57,41.8060125785,-87.721834976,2023-07-19,1.9,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549163
+58,Chicago Zone 58,41.81410021433334,-87.69963179133333,2023-07-19,1.35,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549166
+59,Chicago Zone 59,41.830038123,-87.684452738,2023-07-19,1.81,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549169
+6,Chicago Zone 6,41.9403961684,-87.65434215605,2023-07-19,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549172
+60,Chicago Zone 60,41.8286232475,-87.6432240545,2023-07-19,1.27,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549176
+61,Chicago Zone 61,41.804777053692305,-87.66706502692308,2023-07-19,1.39,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549179
+62,Chicago Zone 62,41.78910686766667,-87.73077133833333,2023-07-19,1.62,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549182
+63,Chicago Zone 63,41.799070475600004,-87.6998327972,2023-07-19,1.33,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549185
+64,Chicago Zone 64,41.777221755,-87.758133836,2023-07-19,1.61,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549188
+65,Chicago Zone 65,41.768241139857146,-87.72947866714286,2023-07-19,1.34,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549192
+66,Chicago Zone 66,41.779119464857146,-87.69512597185714,2023-07-19,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549195
+67,Chicago Zone 67,41.77139294055556,-87.66430488466666,2023-07-19,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549198
+68,Chicago Zone 68,41.77857384958333,-87.64312121849999,2023-07-19,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549201
+69,Chicago Zone 69,41.76321993117647,-87.6196880727647,2023-07-19,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549204
+7,Chicago Zone 7,41.92453016258333,-87.64843722675,2023-07-19,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549208
+70,Chicago Zone 70,41.744588421,-87.716398234,2023-07-19,1.35,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549211
+71,Chicago Zone 71,41.746953728159994,-87.65515065052001,2023-07-19,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549214
+72,Chicago Zone 72,41.70979321125,-87.67326246975,2023-07-19,1.7,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549217
+73,Chicago Zone 73,41.72113639522222,-87.64080467888888,2023-07-19,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549220
+74,Chicago Zone 74,41.69323837,-87.7112443355,2023-07-19,2.78,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549223
+75,Chicago Zone 75,41.6878946135,-87.65890494925,2023-07-19,1.35,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549226
+76,Chicago Zone 76,41.976290414,-87.905227221,2023-07-19,1.23,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549229
+77,Chicago Zone 77,41.98812868272727,-87.6636789299091,2023-07-19,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549233
+8,Chicago Zone 8,41.8958617143125,-87.62997474853125,2023-07-19,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549236
+9,Chicago Zone 9,42.018925407,-87.80832454,2023-07-19,2.49,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.549239
+1,Chicago Zone 1,42.01416423085714,-87.66881699985716,2023-07-20,1.5,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.619980
+10,Chicago Zone 10,41.98459968026373,-87.80119453696274,2023-07-20,1.62,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.619989
+11,Chicago Zone 11,41.977875871,-87.76806366299999,2023-07-20,1.7,green,DECEPTIVE PRACTICE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.619993
+12,Chicago Zone 12,41.98960965451126,-87.75293447018514,2023-07-20,2.24,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.619997
+13,Chicago Zone 13,41.9888851215,-87.71809692325,2023-07-20,1.72,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620000
+14,Chicago Zone 14,41.969223078,-87.72329654025,2023-07-20,1.48,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620003
+15,Chicago Zone 15,41.95253439491667,-87.75816575008334,2023-07-20,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620006
+16,Chicago Zone 16,41.950004633,-87.707299417,2023-07-20,1.45,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620009
+17,Chicago Zone 17,41.9444712022,-87.81378707500001,2023-07-20,1.42,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620012
+18,Chicago Zone 18,41.92808711525,-87.801577923,2023-07-20,1.42,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620015
+19,Chicago Zone 19,41.92455799242857,-87.76377718399999,2023-07-20,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620018
+2,Chicago Zone 2,42.00069442236842,-87.69178396794737,2023-07-20,1.54,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620021
+20,Chicago Zone 20,41.926835069999996,-87.7336782468,2023-07-20,1.48,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620024
+21,Chicago Zone 21,41.936655391,-87.7079890508889,2023-07-20,1.5,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620027
+22,Chicago Zone 22,41.92127976321429,-87.69844430971429,2023-07-20,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620030
+23,Chicago Zone 23,41.900201453952384,-87.71906427266667,2023-07-20,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620033
+24,Chicago Zone 24,41.90168456151724,-87.68155920641378,2023-07-20,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620038
+25,Chicago Zone 25,41.891784598600005,-87.75933212422221,2023-07-20,1.53,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620041
+26,Chicago Zone 26,41.87869059846154,-87.72835350815384,2023-07-20,1.53,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620045
+27,Chicago Zone 27,41.876999674000004,-87.70570040985714,2023-07-20,1.53,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620047
+28,Chicago Zone 28,41.873528652357145,-87.66394819985715,2023-07-20,1.53,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620050
+29,Chicago Zone 29,41.86062306353846,-87.7182468726923,2023-07-20,1.52,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620053
+3,Chicago Zone 3,41.96533002127273,-87.65729765109091,2023-07-20,1.52,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620056
+30,Chicago Zone 30,41.84620153438889,-87.711551882,2023-07-20,1.53,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620059
+31,Chicago Zone 31,41.85407425585714,-87.66281153157142,2023-07-20,1.34,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620062
+32,Chicago Zone 32,41.88078472521739,-87.62854563226087,2023-07-20,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620065
+33,Chicago Zone 33,41.85651046588889,-87.62678100033332,2023-07-20,1.36,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620068
+34,Chicago Zone 34,41.84556591716667,-87.63325436999999,2023-07-20,1.35,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620071
+35,Chicago Zone 35,41.8357748792,-87.6192775456,2023-07-20,1.38,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620074
+36,Chicago Zone 36,41.8304873015,-87.609015726,2023-07-20,1.58,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620076
+37,Chicago Zone 37,41.804386020500004,-87.63080674400001,2023-07-20,1.7,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620079
+38,Chicago Zone 38,41.81429962716667,-87.61728737025,2023-07-20,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620082
+39,Chicago Zone 39,41.80857255257143,-87.59428999685714,2023-07-20,1.36,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620085
+4,Chicago Zone 4,41.9698363566,-87.6846227822,2023-07-20,1.33,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620089
+40,Chicago Zone 40,41.78743885271428,-87.61826737585714,2023-07-20,1.35,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620092
+41,Chicago Zone 41,41.7994130895,-87.59248158630001,2023-07-20,1.38,green,CRIMINAL TRESPASS,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620095
+42,Chicago Zone 42,41.78078957773334,-87.6037448578,2023-07-20,1.38,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620098
+43,Chicago Zone 43,41.76266208468421,-87.57380802205263,2023-07-20,1.38,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620101
+44,Chicago Zone 44,41.74595236085714,-87.61401259621428,2023-07-20,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620103
+45,Chicago Zone 45,41.745291954500004,-87.590476089,2023-07-20,1.65,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620107
+46,Chicago Zone 46,41.7412976441875,-87.556605630875,2023-07-20,1.38,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620110
+47,Chicago Zone 47,41.726918544,-87.594900427,2023-07-20,2.65,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620113
+48,Chicago Zone 48,41.733504393833336,-87.57572168166666,2023-07-20,1.34,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620116
+49,Chicago Zone 49,41.70708789407692,-87.6247272423077,2023-07-20,1.39,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620119
+5,Chicago Zone 5,41.9442497888,-87.6867205034,2023-07-20,1.35,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620121
+50,Chicago Zone 50,41.69882413766667,-87.607266502,2023-07-20,1.77,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620124
+51,Chicago Zone 51,41.70748983033334,-87.57113515766667,2023-07-20,1.32,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620127
+52,Chicago Zone 52,41.70986555166667,-87.536724779,2023-07-20,1.32,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620130
+53,Chicago Zone 53,41.680489122,-87.63702841525,2023-07-20,1.35,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620133
+54,Chicago Zone 54,41.655306771,-87.60477457766667,2023-07-20,1.36,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620136
+55,Chicago Zone 55,41.683894862,-87.534050495,2023-07-20,1.63,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620139
+56,Chicago Zone 56,41.799490794125,-87.75428636775,2023-07-20,1.37,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620142
+57,Chicago Zone 57,41.8060125785,-87.721834976,2023-07-20,1.89,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620145
+58,Chicago Zone 58,41.81410021433334,-87.69963179133333,2023-07-20,1.35,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620148
+59,Chicago Zone 59,41.830038123,-87.684452738,2023-07-20,1.79,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620151
+6,Chicago Zone 6,41.9403961684,-87.65434215605,2023-07-20,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620154
+60,Chicago Zone 60,41.8286232475,-87.6432240545,2023-07-20,1.28,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620157
+61,Chicago Zone 61,41.804777053692305,-87.66706502692308,2023-07-20,1.39,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620160
+62,Chicago Zone 62,41.78910686766667,-87.73077133833333,2023-07-20,1.6,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620163
+63,Chicago Zone 63,41.799070475600004,-87.6998327972,2023-07-20,1.34,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620166
+64,Chicago Zone 64,41.777221755,-87.758133836,2023-07-20,1.6,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620169
+65,Chicago Zone 65,41.768241139857146,-87.72947866714286,2023-07-20,1.34,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620173
+66,Chicago Zone 66,41.779119464857146,-87.69512597185714,2023-07-20,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620175
+67,Chicago Zone 67,41.77139294055556,-87.66430488466666,2023-07-20,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620178
+68,Chicago Zone 68,41.77857384958333,-87.64312121849999,2023-07-20,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620181
+69,Chicago Zone 69,41.76321993117647,-87.6196880727647,2023-07-20,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620184
+7,Chicago Zone 7,41.92453016258333,-87.64843722675,2023-07-20,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620187
+70,Chicago Zone 70,41.744588421,-87.716398234,2023-07-20,1.35,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620190
+71,Chicago Zone 71,41.746953728159994,-87.65515065052001,2023-07-20,1.39,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620193
+72,Chicago Zone 72,41.70979321125,-87.67326246975,2023-07-20,1.68,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620196
+73,Chicago Zone 73,41.72113639522222,-87.64080467888888,2023-07-20,1.39,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620198
+74,Chicago Zone 74,41.69323837,-87.7112443355,2023-07-20,2.78,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620201
+75,Chicago Zone 75,41.6878946135,-87.65890494925,2023-07-20,1.35,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620206
+76,Chicago Zone 76,41.976290414,-87.905227221,2023-07-20,1.23,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620209
+77,Chicago Zone 77,41.98812868272727,-87.6636789299091,2023-07-20,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620212
+8,Chicago Zone 8,41.8958617143125,-87.62997474853125,2023-07-20,1.41,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620215
+9,Chicago Zone 9,42.018925407,-87.80832454,2023-07-20,2.49,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.620218
+1,Chicago Zone 1,42.01416423085714,-87.66881699985716,2023-07-21,1.5,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685379
+10,Chicago Zone 10,41.98459968026373,-87.80119453696274,2023-07-21,1.62,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685391
+11,Chicago Zone 11,41.977875871,-87.76806366299999,2023-07-21,1.7,green,DECEPTIVE PRACTICE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685399
+12,Chicago Zone 12,41.98960965451126,-87.75293447018514,2023-07-21,2.23,green,none,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685403
+13,Chicago Zone 13,41.9888851215,-87.71809692325,2023-07-21,1.71,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685408
+14,Chicago Zone 14,41.969223078,-87.72329654025,2023-07-21,1.48,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685412
+15,Chicago Zone 15,41.95253439491667,-87.75816575008334,2023-07-21,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685416
+16,Chicago Zone 16,41.950004633,-87.707299417,2023-07-21,1.46,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685420
+17,Chicago Zone 17,41.9444712022,-87.81378707500001,2023-07-21,1.42,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685426
+18,Chicago Zone 18,41.92808711525,-87.801577923,2023-07-21,1.42,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685433
+19,Chicago Zone 19,41.92455799242857,-87.76377718399999,2023-07-21,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685450
+2,Chicago Zone 2,42.00069442236842,-87.69178396794737,2023-07-21,1.54,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685456
+20,Chicago Zone 20,41.926835069999996,-87.7336782468,2023-07-21,1.48,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685461
+21,Chicago Zone 21,41.936655391,-87.7079890508889,2023-07-21,1.5,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685471
+22,Chicago Zone 22,41.92127976321429,-87.69844430971429,2023-07-21,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685475
+23,Chicago Zone 23,41.900201453952384,-87.71906427266667,2023-07-21,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685479
+24,Chicago Zone 24,41.90168456151724,-87.68155920641378,2023-07-21,1.54,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685486
+25,Chicago Zone 25,41.891784598600005,-87.75933212422221,2023-07-21,1.53,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685490
+26,Chicago Zone 26,41.87869059846154,-87.72835350815384,2023-07-21,1.53,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685494
+27,Chicago Zone 27,41.876999674000004,-87.70570040985714,2023-07-21,1.53,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685498
+28,Chicago Zone 28,41.873528652357145,-87.66394819985715,2023-07-21,1.53,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685501
+29,Chicago Zone 29,41.86062306353846,-87.7182468726923,2023-07-21,1.52,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685505
+3,Chicago Zone 3,41.96533002127273,-87.65729765109091,2023-07-21,1.52,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685509
+30,Chicago Zone 30,41.84620153438889,-87.711551882,2023-07-21,1.52,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685514
+31,Chicago Zone 31,41.85407425585714,-87.66281153157142,2023-07-21,1.35,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685517
+32,Chicago Zone 32,41.88078472521739,-87.62854563226087,2023-07-21,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685520
+33,Chicago Zone 33,41.85651046588889,-87.62678100033332,2023-07-21,1.36,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685524
+34,Chicago Zone 34,41.84556591716667,-87.63325436999999,2023-07-21,1.36,green,ROBBERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685528
+35,Chicago Zone 35,41.8357748792,-87.6192775456,2023-07-21,1.38,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685531
+36,Chicago Zone 36,41.8304873015,-87.609015726,2023-07-21,1.58,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685534
+37,Chicago Zone 37,41.804386020500004,-87.63080674400001,2023-07-21,1.72,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685537
+38,Chicago Zone 38,41.81429962716667,-87.61728737025,2023-07-21,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685541
+39,Chicago Zone 39,41.80857255257143,-87.59428999685714,2023-07-21,1.37,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685544
+4,Chicago Zone 4,41.9698363566,-87.6846227822,2023-07-21,1.34,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685547
+40,Chicago Zone 40,41.78743885271428,-87.61826737585714,2023-07-21,1.36,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685550
+41,Chicago Zone 41,41.7994130895,-87.59248158630001,2023-07-21,1.38,green,CRIMINAL TRESPASS,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685553
+42,Chicago Zone 42,41.78078957773334,-87.6037448578,2023-07-21,1.38,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685556
+43,Chicago Zone 43,41.76266208468421,-87.57380802205263,2023-07-21,1.38,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685559
+44,Chicago Zone 44,41.74595236085714,-87.61401259621428,2023-07-21,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685562
+45,Chicago Zone 45,41.745291954500004,-87.590476089,2023-07-21,1.65,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685566
+46,Chicago Zone 46,41.7412976441875,-87.556605630875,2023-07-21,1.38,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685570
+47,Chicago Zone 47,41.726918544,-87.594900427,2023-07-21,2.62,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685573
+48,Chicago Zone 48,41.733504393833336,-87.57572168166666,2023-07-21,1.34,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685576
+49,Chicago Zone 49,41.70708789407692,-87.6247272423077,2023-07-21,1.39,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685579
+5,Chicago Zone 5,41.9442497888,-87.6867205034,2023-07-21,1.35,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685582
+50,Chicago Zone 50,41.69882413766667,-87.607266502,2023-07-21,1.77,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685586
+51,Chicago Zone 51,41.70748983033334,-87.57113515766667,2023-07-21,1.33,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685589
+52,Chicago Zone 52,41.70986555166667,-87.536724779,2023-07-21,1.33,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685592
+53,Chicago Zone 53,41.680489122,-87.63702841525,2023-07-21,1.36,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685595
+54,Chicago Zone 54,41.655306771,-87.60477457766667,2023-07-21,1.37,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685598
+55,Chicago Zone 55,41.683894862,-87.534050495,2023-07-21,1.62,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685601
+56,Chicago Zone 56,41.799490794125,-87.75428636775,2023-07-21,1.38,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685604
+57,Chicago Zone 57,41.8060125785,-87.721834976,2023-07-21,1.9,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685608
+58,Chicago Zone 58,41.81410021433334,-87.69963179133333,2023-07-21,1.35,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685611
+59,Chicago Zone 59,41.830038123,-87.684452738,2023-07-21,1.79,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685614
+6,Chicago Zone 6,41.9403961684,-87.65434215605,2023-07-21,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685617
+60,Chicago Zone 60,41.8286232475,-87.6432240545,2023-07-21,1.29,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685620
+61,Chicago Zone 61,41.804777053692305,-87.66706502692308,2023-07-21,1.4,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685623
+62,Chicago Zone 62,41.78910686766667,-87.73077133833333,2023-07-21,1.59,green,MOTOR VEHICLE THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685627
+63,Chicago Zone 63,41.799070475600004,-87.6998327972,2023-07-21,1.35,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685632
+64,Chicago Zone 64,41.777221755,-87.758133836,2023-07-21,1.59,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685635
+65,Chicago Zone 65,41.768241139857146,-87.72947866714286,2023-07-21,1.34,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685638
+66,Chicago Zone 66,41.779119464857146,-87.69512597185714,2023-07-21,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685641
+67,Chicago Zone 67,41.77139294055556,-87.66430488466666,2023-07-21,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685644
+68,Chicago Zone 68,41.77857384958333,-87.64312121849999,2023-07-21,1.4,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685647
+69,Chicago Zone 69,41.76321993117647,-87.6196880727647,2023-07-21,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685650
+7,Chicago Zone 7,41.92453016258333,-87.64843722675,2023-07-21,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685653
+70,Chicago Zone 70,41.744588421,-87.716398234,2023-07-21,1.35,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685656
+71,Chicago Zone 71,41.746953728159994,-87.65515065052001,2023-07-21,1.4,green,BATTERY,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685659
+72,Chicago Zone 72,41.70979321125,-87.67326246975,2023-07-21,1.67,green,CRIMINAL DAMAGE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685662
+73,Chicago Zone 73,41.72113639522222,-87.64080467888888,2023-07-21,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685666
+74,Chicago Zone 74,41.69323837,-87.7112443355,2023-07-21,2.79,green,OTHER OFFENSE,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685669
+75,Chicago Zone 75,41.6878946135,-87.65890494925,2023-07-21,1.36,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685672
+76,Chicago Zone 76,41.976290414,-87.905227221,2023-07-21,1.25,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685676
+77,Chicago Zone 77,41.98812868272727,-87.6636789299091,2023-07-21,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685679
+8,Chicago Zone 8,41.8958617143125,-87.62997474853125,2023-07-21,1.4,green,THEFT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685682
+9,Chicago Zone 9,42.018925407,-87.80832454,2023-07-21,2.49,green,ASSAULT,0,model4_7day_zone_forecast,RandomForestRegressor,2026-05-02T22:39:50.685685

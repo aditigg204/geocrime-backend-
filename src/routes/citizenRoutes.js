@@ -1,0 +1,12 @@
+const router = require('express').Router();
+const role = require('../middleware/roleMiddleware');
+const ctrl = require('../controllers/citizenController');
+const incidents = require('../controllers/incidentController');
+router.get('/home', role('citizen'), ctrl.dashboard);
+router.get('/dashboard', role('citizen'), ctrl.dashboard);
+router.get('/my-zone', role('citizen'), ctrl.myZone);
+router.get('/my-reports', role('citizen'), incidents.mine);
+router.get('/location-risk', role('citizen'), ctrl.locationRisk);
+router.get('/safety-guide', role('citizen'), ctrl.safetyGuide);
+router.post('/sos', role('citizen'), ctrl.sos);
+module.exports = router;

@@ -1,0 +1,5 @@
+file_name,error
+36_Police_housing.csv,"Expected 7 fields in line 699, saw 9"
+42_Cases_under_crime_against_women.csv,"Expected 22 fields in line 2453, saw 23"
+43_Arrests_under_crime_against_women.csv,"Expected 16 fields in line 2453, saw 17"
+CrimesOnWomenData.xls,"Excel file format cannot be determined, you must specify an engine manually."

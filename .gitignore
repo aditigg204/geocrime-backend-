@@ -1,0 +1,13 @@
+node_modules/
+.env
+.venv/
+__pycache__/
+*.pyc
+src/uploads/*
+!src/uploads/.gitkeep
+prisma/migrations/
+ml-services/datasets/raw/
+ml-services/datasets/selected/
+ml-services/models/*.pkl
+ml-services/logs/
+ml-services/audit_outputs/*.xlsx

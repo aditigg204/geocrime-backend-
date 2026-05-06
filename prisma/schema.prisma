@@ -1,0 +1,388 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  citizen
+  officer
+  admin
+  analyst
+}
+
+enum UserStatus {
+  active
+  inactive
+  suspended
+}
+
+enum RiskLevel {
+  green
+  yellow
+  red
+}
+
+enum IncidentStatus {
+  submitted
+  under_review
+  responding
+  resolved
+  escalated
+}
+
+enum Priority {
+  low
+  medium
+  high
+  critical
+}
+
+enum AlertSeverity {
+  low
+  medium
+  high
+  critical
+}
+
+enum AlertStatus {
+  pending
+  sent
+  failed
+  read
+}
+
+model User {
+  id                  String     @id @default(uuid())
+  name                String
+  email               String     @unique
+  phone               String?
+  passwordHash        String
+  role                Role       @default(citizen)
+  status              UserStatus @default(active)
+  avatarUrl           String?
+  badgeId             String?
+  assignedZoneId      String?
+  onboardingCompleted Boolean    @default(false)
+  locationConsent     Boolean    @default(false)
+  latestLat           Float?
+  latestLng           Float?
+  createdAt           DateTime   @default(now())
+  updatedAt           DateTime   @updatedAt
+
+  settings        UserSettings?
+  reports         Incident[]         @relation("IncidentReporter")
+  assignedReports Incident[]         @relation("IncidentOfficer")
+  comments        IncidentUpdate[]
+  alerts          Alert[]
+  sosEvents       SosEvent[]
+  datasetUploads  DatasetUpload[]
+  systemLogs      SystemLog[]
+  chatSessions    AssistantSession[]
+  exportJobs      ExportJob[]
+  assignedZone    Zone?              @relation("OfficerAssignedZone", fields: [assignedZoneId], references: [id])
+}
+
+model UserSettings {
+  id                     String   @id @default(uuid())
+  userId                 String   @unique
+  language               String   @default("en")
+  theme                  String   @default("light")
+  notifications          Boolean  @default(true)
+  locationPermission     Boolean  @default(false)
+  anonymousReporting     Boolean  @default(false)
+  sosConfirmation        Boolean  @default(true)
+  showDashboardAssistant Boolean  @default(true)
+  assistantAvatar        String   @default("female")
+  chatbotOpeningStyle    String   @default("compact")
+  redZoneAlerts          Boolean  @default(true)
+  yellowZoneWarnings     Boolean  @default(true)
+  mlPredictionAlerts     Boolean  @default(true)
+  nearbyIncidentAlerts   Boolean  @default(true)
+  createdAt              DateTime @default(now())
+  updatedAt              DateTime @updatedAt
+  user                   User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Zone {
+  id              String    @id @default(uuid())
+  name            String    @unique
+  city            String?
+  riskScore       Int       @default(0)
+  riskLevel       RiskLevel @default(green)
+  lat             Float
+  lng             Float
+  boundaryJson    Json?
+  dominantCrime   String?
+  peakTime        String?
+  greenThreshold  Int       @default(40)
+  yellowThreshold Int       @default(70)
+  active          Boolean   @default(true)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  assignedUsers User[]          @relation("OfficerAssignedZone")
+  incidents     Incident[]
+  alerts        Alert[]
+  predictions   MlPrediction[]
+  riskScores    ZoneRiskScore[]
+  hotspots      Hotspot[]
+}
+
+model CrimeCategory {
+  id             String     @id @default(uuid())
+  name           String     @unique
+  description    String?
+  severityWeight Int        @default(2)
+  active         Boolean    @default(true)
+  incidents      Incident[]
+}
+
+model Incident {
+  id                String         @id @default(uuid())
+  type              String
+  customType        String?
+  description       String?
+  status            IncidentStatus @default(submitted)
+  priority          Priority       @default(medium)
+  riskLevelAtReport RiskLevel?
+  severityScore     Int            @default(2)
+  locationText      String?
+  lat               Float
+  lng               Float
+  accuracy          Float?
+  isAnonymous       Boolean        @default(false)
+  reportedById      String?
+  assignedOfficerId String?
+  zoneId            String?
+  categoryId        String?
+  createdAt         DateTime       @default(now())
+  updatedAt         DateTime       @updatedAt
+
+  reportedBy      User?                   @relation("IncidentReporter", fields: [reportedById], references: [id])
+  assignedOfficer User?                   @relation("IncidentOfficer", fields: [assignedOfficerId], references: [id])
+  zone            Zone?                   @relation(fields: [zoneId], references: [id])
+  category        CrimeCategory?          @relation(fields: [categoryId], references: [id])
+  media           IncidentMedia[]
+  history         IncidentStatusHistory[]
+  updates         IncidentUpdate[]
+  alerts          Alert[]
+}
+
+model IncidentMedia {
+  id         String   @id @default(uuid())
+  incidentId String
+  fileUrl    String
+  fileType   String?
+  fileName   String?
+  createdAt  DateTime @default(now())
+  incident   Incident @relation(fields: [incidentId], references: [id], onDelete: Cascade)
+}
+
+model IncidentStatusHistory {
+  id          String          @id @default(uuid())
+  incidentId  String
+  oldStatus   IncidentStatus?
+  newStatus   IncidentStatus
+  updatedById String?
+  comment     String?
+  createdAt   DateTime        @default(now())
+  incident    Incident        @relation(fields: [incidentId], references: [id], onDelete: Cascade)
+}
+
+model IncidentUpdate {
+  id         String   @id @default(uuid())
+  incidentId String
+  userId     String?
+  message    String
+  createdAt  DateTime @default(now())
+  incident   Incident @relation(fields: [incidentId], references: [id], onDelete: Cascade)
+  user       User?    @relation(fields: [userId], references: [id])
+}
+
+model Alert {
+  id         String        @id @default(uuid())
+  userId     String?
+  officerId  String?
+  incidentId String?
+  zoneId     String?
+  title      String
+  message    String
+  alertType  String        @default("system")
+  severity   AlertSeverity @default(medium)
+  status     AlertStatus   @default(sent)
+  read       Boolean       @default(false)
+  lat        Float?
+  lng        Float?
+  createdAt  DateTime      @default(now())
+  user       User?         @relation(fields: [userId], references: [id])
+  incident   Incident?     @relation(fields: [incidentId], references: [id])
+  zone       Zone?         @relation(fields: [zoneId], references: [id])
+}
+
+model SosEvent {
+  id               String   @id @default(uuid())
+  userId           String?
+  nearestOfficerId String?
+  message          String   @default("Emergency SOS")
+  lat              Float
+  lng              Float
+  source           String?
+  status           String   @default("created")
+  createdAt        DateTime @default(now())
+  user             User?    @relation(fields: [userId], references: [id])
+}
+
+model ZoneRiskScore {
+  id              String    @id @default(uuid())
+  zoneId          String
+  zoneName        String
+  predictionDate  DateTime
+  riskScore       Int
+  riskLevel       RiskLevel
+  confidenceScore Float?
+  topReason       String?
+  modelName       String    @default("risk_model")
+  createdAt       DateTime  @default(now())
+  zone            Zone      @relation(fields: [zoneId], references: [id], onDelete: Cascade)
+}
+
+model MlPrediction {
+  id                 String    @id @default(uuid())
+  state              String?
+  district           String?
+  zoneName           String?
+  zoneId             String?
+  predictionYear     Int?
+  predictionDate     DateTime  @default(now())
+  predictedRiskScore Float
+  predictedRiskLevel RiskLevel
+  likelyCrime        String?
+  mainCrimeDriver    String?
+  peakTime           String?
+  confidenceScore    Float?
+  recommendation     String?
+  modelName          String    @default("model1_india_ipc")
+  createdAt          DateTime  @default(now())
+  zone               Zone?     @relation(fields: [zoneId], references: [id], onDelete: SetNull)
+
+  @@index([state])
+  @@index([district])
+  @@index([zoneName])
+  @@index([zoneId])
+  @@index([predictionYear])
+}
+
+model Hotspot {
+  id                String    @id @default(uuid())
+  clusterId         String
+  zoneId            String?
+  centerLat         Float
+  centerLng         Float
+  radiusMeters      Int       @default(500)
+  crimeCount        Int       @default(0)
+  dominantCrimeType String?
+  riskScore         Int       @default(0)
+  riskLevel         RiskLevel @default(green)
+  createdAt         DateTime  @default(now())
+  zone              Zone?     @relation(fields: [zoneId], references: [id])
+}
+
+model MlModelRun {
+  id             String   @id @default(uuid())
+  modelName      String
+  modelType      String   @default("regression")
+  mae            Float?
+  rmse           Float?
+  r2Score        Float?
+  accuracy       Float?
+  precision      Float?
+  recall         Float?
+  f1Score        Float?
+  trainingRows   Int      @default(0)
+  validationRows Int      @default(0)
+  testRows       Int      @default(0)
+  totalSamples   Int      @default(0)
+  status         String   @default("success")
+  metricsJson    String?
+  featureCount   Int      @default(0)
+  startedAt      DateTime @default(now())
+  completedAt    DateTime @default(now())
+  createdAt      DateTime @default(now())
+}
+
+model DatasetUpload {
+  id            String   @id @default(uuid())
+  uploadedById  String?
+  fileUrl       String?
+  fileName      String?
+  totalRows     Int      @default(0)
+  processedRows Int      @default(0)
+  status        String   @default("uploaded")
+  createdAt     DateTime @default(now())
+  uploadedBy    User?    @relation(fields: [uploadedById], references: [id])
+}
+
+model SystemLog {
+  id        String   @id @default(uuid())
+  userId    String?
+  action    String
+  module    String
+  details   Json?
+  createdAt DateTime @default(now())
+  user      User?    @relation(fields: [userId], references: [id])
+}
+
+model AssistantSession {
+  id        String             @id @default(uuid())
+  userId    String?
+  role      Role?
+  title     String?
+  createdAt DateTime           @default(now())
+  user      User?              @relation(fields: [userId], references: [id])
+  messages  AssistantMessage[]
+}
+
+model AssistantMessage {
+  id        String           @id @default(uuid())
+  sessionId String
+  sender    String
+  message   String
+  cards     Json?
+  createdAt DateTime         @default(now())
+  session   AssistantSession @relation(fields: [sessionId], references: [id], onDelete: Cascade)
+}
+
+model ChatbotFAQ {
+  id        String   @id @default(uuid())
+  role      Role?
+  intent    String
+  question  String
+  answer    String
+  active    Boolean  @default(true)
+  createdAt DateTime @default(now())
+}
+
+model ExportJob {
+  id        String   @id @default(uuid())
+  userId    String?
+  format    String
+  filters   Json?
+  fileUrl   String?
+  status    String   @default("generated")
+  createdAt DateTime @default(now())
+  user      User?    @relation(fields: [userId], references: [id])
+}
+
+model PatrolRoute {
+  id        String   @id @default(uuid())
+  officerId String?
+  name      String
+  zoneIds   Json
+  status    String   @default("generated")
+  routeJson Json?
+  createdAt DateTime @default(now())
+}
