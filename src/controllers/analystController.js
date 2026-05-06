@@ -80,5 +80,20 @@ exports.reportAnalytics = asyncHandler(async (req, res) => {
   ok(res, { byStatus, byType, byZone });
 });
 
-exports.createExport = asyncHandler(async (req, res) => created(res, await prisma.exportJob.create({ data: { userId: req.user.id, format: req.body.format || 'csv', filters: req.body.filters || {}, fileUrl: '/exports/mock-report.csv' } }), 'Export generated'));
+exports.createExport = asyncHandler(async (req, res) => {
+  const timestamp = Date.now();
+  const fileName = `report-${timestamp}.${req.body.format || 'csv'}`;
+  const fileUrl = `/exports/${fileName}`;
+  const exportJob = await prisma.exportJob.create({ 
+    data: { 
+      userId: req.user.id, 
+      format: req.body.format || 'csv', 
+      filters: req.body.filters || {}, 
+      fileUrl: fileUrl,
+      status: 'processing'
+    } 
+  });
+  created(res, exportJob, 'Export job started - processing...');
+});
+
 exports.listExports = asyncHandler(async (req, res) => ok(res, await prisma.exportJob.findMany({ where: { userId: req.user.id }, orderBy: { createdAt: 'desc' } })));
