@@ -18,7 +18,16 @@ app.use(rateLimit({ windowMs: 15 * 60 * 1000, max: 500 }));
 app.use((req, res, next) => { req.io = req.app.get('io'); next(); });
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-app.get('/health', (req, res) => res.json({ success: true, service: 'GeoCrime API', status: 'online', time: new Date().toISOString() }));
+const healthPayload = () => ({
+  success: true,
+  service: 'GeoCrime API',
+  status: 'online',
+  time: new Date().toISOString(),
+});
+
+app.get('/', (req, res) => res.json(healthPayload()));
+app.head('/', (req, res) => res.status(200).end());
+app.get('/health', (req, res) => res.json(healthPayload()));
 
 // Public/common routes
 app.use('/api', require('./routes/commonRoutes'));
