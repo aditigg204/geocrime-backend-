@@ -29,9 +29,26 @@ exports.users = asyncHandler(async (req, res) => {
 
 exports.createOfficer = asyncHandler(async (req, res) => {
   const { name, email, phone, password = '123456', badgeId, assignedZoneId } = req.body;
-  if (!name || !email) return fail(res, 'name and email required');
+  if (!name || !email) return fail(res, 'Officer name and email are required', 400, 'VALIDATION_ERROR');
+  if (String(password).length < 6) return fail(res, 'Officer password must be at least 6 characters', 400, 'VALIDATION_ERROR');
+  const existing = await prisma.user.findUnique({ where: { email: String(email).toLowerCase().trim() } });
+  if (existing) return fail(res, 'An account already exists with this email', 409, 'EMAIL_EXISTS');
   const passwordHash = await bcrypt.hash(password, 10);
-  const user = await prisma.user.create({ data: { name, email, phone, passwordHash, role: 'officer', badgeId, assignedZoneId, settings: { create: {} } }, include: { assignedZone: true } });
+  const zone = assignedZoneId ? await prisma.zone.findUnique({ where: { id: assignedZoneId } }) : null;
+  const user = await prisma.user.create({
+    data: {
+      name: String(name).trim(),
+      email: String(email).toLowerCase().trim(),
+      phone,
+      passwordHash,
+      role: 'officer',
+      badgeId,
+      assignedZoneId: zone?.id,
+      settings: { create: { assistantAvatar: 'male' } },
+    },
+    include: { assignedZone: true, settings: true },
+  });
+  await prisma.systemLog.create({ data: { userId: req.user.id, action: 'officer_registered', module: 'admin', details: { officerId: user.id, email: user.email, badgeId } } });
   const { passwordHash: _, ...safe } = user;
   created(res, safe, 'Officer created');
 });

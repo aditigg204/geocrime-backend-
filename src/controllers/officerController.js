@@ -24,17 +24,34 @@ exports.incidents = asyncHandler(async (req, res) => {
 });
 
 exports.patrolPlan = asyncHandler(async (req, res) => {
-  const predictions = await prisma.mlPrediction.findMany({ where: { predictionDate: { gte: new Date(new Date().toDateString()) } }, orderBy: [{ predictedRiskScore: 'desc' }], take: 10 });
-  ok(res, { recommendations: predictions.map((p, i) => ({ rank: i + 1, ...p, recommendation: p.predictedRiskLevel === 'red' ? 'High priority patrol' : 'Monitor during peak time' })) });
+  let predictions = await prisma.mlPrediction.findMany({ where: { predictionDate: { gte: new Date(new Date().toDateString()) } }, orderBy: [{ predictedRiskScore: 'desc' }], take: 10, include: { zone: true } });
+  if (!predictions.length) {
+    predictions = await prisma.mlPrediction.findMany({ orderBy: [{ predictedRiskScore: 'desc' }, { predictionDate: 'desc' }], take: 10, include: { zone: true } });
+  }
+  ok(res, {
+    recommendations: predictions.map((p, i) => ({
+      rank: i + 1,
+      ...p,
+      zoneName: p.zoneName || p.zone?.name || p.district || 'Priority zone',
+      recommendation: p.predictedRiskLevel === 'red' ? 'High priority patrol' : 'Monitor during peak time',
+    })),
+  });
 });
 
 exports.generatePatrolRoute = asyncHandler(async (req, res) => {
-  const { zoneIds = [] } = req.body;
-  const route = await prisma.patrolRoute.create({ data: { officerId: req.user.id, name: 'Generated patrol route', zoneIds, routeJson: { zoneIds, generatedAt: new Date() } } });
+  let { zoneIds = [] } = req.body;
+  if (!Array.isArray(zoneIds) || zoneIds.length === 0) {
+    const zones = await prisma.zone.findMany({ orderBy: { riskScore: 'desc' }, take: 3 });
+    zoneIds = zones.map(z => z.id);
+  }
+  const route = await prisma.patrolRoute.create({ data: { officerId: req.user.id, name: 'Generated patrol route', zoneIds, routeJson: { zoneIds, generatedAt: new Date(), guidance: 'Prefer main roads and avoid active red hotspots.' } } });
+  await prisma.systemLog.create({ data: { userId: req.user.id, action: 'patrol_route_generated', module: 'officer', details: { routeId: route.id, zoneIds } } });
   created(res, route, 'Patrol route generated');
 });
 
 exports.startPatrolRoute = asyncHandler(async (req, res) => {
   const route = await prisma.patrolRoute.update({ where: { id: req.params.id }, data: { status: 'started' } });
+  await prisma.systemLog.create({ data: { userId: req.user.id, action: 'patrol_started', module: 'officer', details: { routeId: route.id } } });
+  req.io?.to('admin').emit('patrol:started', route);
   ok(res, route, 'Patrol started');
 });
