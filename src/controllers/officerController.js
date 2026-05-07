@@ -206,7 +206,10 @@ exports.patrolPlan = asyncHandler(async (req, res) => {
   const recommendations = predictions.map((p, i) => ({
     rank: i + 1,
     id: p.id,
+    zoneId: p.zoneId || p.zone?.id || null,
     zoneName: p.zoneName || p.zone?.name || p.district || 'Priority zone',
+    lat: p.zone?.lat || null,
+    lng: p.zone?.lng || null,
     riskScore: p.predictedRiskScore,
     riskLevel: p.predictedRiskLevel,
     likelyCrime: p.likelyCrime,

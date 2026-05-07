@@ -90,10 +90,10 @@ exports.createExport = asyncHandler(async (req, res) => {
       format: req.body.format || 'csv', 
       filters: req.body.filters || {}, 
       fileUrl: fileUrl,
-      status: 'processing'
+      status: 'completed'
     } 
   });
-  created(res, exportJob, 'Export job started - processing...');
+  created(res, exportJob, 'Export job created.');
 });
 
 exports.listExports = asyncHandler(async (req, res) => ok(res, await prisma.exportJob.findMany({ where: { userId: req.user.id }, orderBy: { createdAt: 'desc' } })));
